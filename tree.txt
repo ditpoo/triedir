@@ -1,0 +1,22 @@
+py-toolkit/
+├── .github/
+│   └── workflows/
+│       ├── ci.yml
+│       └── release.yml
+├── .gitignore
+├── .pre-commit-config.yaml
+├── LICENSE
+├── pyproject.toml
+├── README.md
+├── CONTRIBUTING.md
+├── src/
+│   └── py_toolkit/
+│       ├── __init__.py
+│       ├── core.py
+│       ├── utils.py
+│       └── exceptions.py
+└── tests/
+   ├── __init__.py
+   ├── conftest.py
+   ├── test_core.py
+   └── test_utils.py
